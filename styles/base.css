@@ -1,5 +1,123 @@
-.container {
-    display: grid;
-    grid-template-rows: 200px 400px;
-    grid-template-columns: 400px;
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+.container1 {
+    display:grid;
+    justify-content: center;
 }
+
+.container2 {
+    display:grid;
+   
+}
+
+.container3 {
+    display:grid;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: gray;
+   
+}
+
+.container4 {
+    display:grid;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: gray;
+   
+}
+
+.footer{
+
+    background-color: darkblue;
+    display:grid;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p {
+    color: gray;
+}
+
+h3 {
+    color:white;
+}
+
+ol {
+
+    color: white;
+}
+
+h1 {
+
+    color:white;
+}
+
+body {
+
+    font-family: 'Mooli', sans-serif;
+}
+
+.head1{
+
+    background-color: darkblue;
+}
+
+.head2{
+
+
+}
+
+.myname1{
+    
+    position: relative;
+    bottom: 50px;
+    left: 175px;
+    color: white;
+
+
+}
+
+img{
+    display: grid;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50px;
+}
+/*
+.main section {
+
+    display:grid;
+
+    grid-template-rows: auto 1fr auto;
+
+}
+*/
+nav{
+    display:grid;
+    background-color: gray;
+    color: azure;
+    list-style:none;  
+  }
+  
+nav a {
+    text-decoration:none;
+    padding: 0;
+    color:#fff;
+    transition:all 1s ease-out;
+    font-family:'Teko', sans-serif;
+    text-align:center;
+    padding:  8px;
+  }
+  
+  nav a:hover{
+
+    background-color: green;
+  
+  }
