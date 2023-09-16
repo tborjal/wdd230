@@ -33,7 +33,7 @@
 .footer{
 
     background-color: darkblue;
-    display:flex;
+    display:grid;
     justify-content: center;
     border: 1px solid black;
     padding: 10px;
@@ -43,11 +43,11 @@
 .copyright {
     display: flex;
     color: gray;
+    top: 50px;
     }
 .copylogo {
     display: flex;
-    color: gray;left: 20px;
-    bottom: 20px;
+    color: gray;
 }
 
 .modify {
