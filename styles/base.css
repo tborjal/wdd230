@@ -33,13 +33,28 @@
 .footer{
 
     background-color: darkblue;
-    display:grid;
+    display:flex;
     justify-content: center;
     border: 1px solid black;
     padding: 10px;
     box-sizing: border-box;
 }
 
+.copyright {
+    display: flex;
+    color: gray;
+    }
+.copylogo {
+    display: flex;
+    color: gray;left: 20px;
+    bottom: 20px;
+}
+
+.modify {
+
+    right: 50px;
+    z-index: 2;
+}
 p {
     color: gray;
 }
@@ -68,12 +83,7 @@ body {
     background-color: darkblue;
 }
 
-.head2{
-
-
-}
-
-.myname1{
+.myname1 {
     
     position: relative;
     bottom: 50px;
@@ -89,16 +99,7 @@ img{
     height: 150px;
     position: relative;
     top: 50px;
-}
-/*
-.main section {
-
-    display:grid;
-
-    grid-template-rows: auto 1fr auto;
-
-}
-*/
+} 
 nav{
     display:grid;
     background-color: gray;
