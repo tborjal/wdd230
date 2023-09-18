@@ -47,7 +47,7 @@
     }
 .copylogo {
     display: flex;
-    color: gray;
+    color: black;
 }
 
 .modify {
@@ -110,7 +110,7 @@ nav{
 nav a {
     text-decoration:none;
     padding: 0;
-    color:#fff;
+    color:black;
     transition:all 1s ease-out;
     font-family:'Teko', sans-serif;
     text-align:center;
@@ -119,6 +119,6 @@ nav a {
   
   nav a:hover{
 
-    background-color: black;
+    background-color: gray;
   
   }
