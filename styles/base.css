@@ -16,7 +16,7 @@
     border: 1px solid black;
     padding: 10px;
     box-sizing: border-box;
-    background-color: gray;
+    background-color: white;
    
 }
 
@@ -32,7 +32,7 @@
 
 .footer{
 
-    background-color: darkblue;
+    background-color: darkolivegreen;
     display:grid;
     justify-content: center;
     border: 1px solid black;
@@ -42,7 +42,7 @@
 
 .copyright {
     display: flex;
-    color: gray;
+    color: black;
     top: 50px;
     }
 .copylogo {
@@ -56,11 +56,11 @@
     z-index: 2;
 }
 p {
-    color: gray;
+    color: black;
 }
 
 h3 {
-    color:white;
+    color: black;
 }
 
 ol {
