@@ -102,7 +102,7 @@ img{
 } 
 nav{
     display:grid;
-    background-color: gray;
+    background-color: white;
     color: azure;
     list-style:none;  
   }
