@@ -5,6 +5,11 @@ header {
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#examples {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
 .card {
     background-color: #eceaeb;
 }
@@ -73,9 +78,6 @@ a:hover {
 h2 {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#examples {
-    align-items: center;
 }
 hr {
     width: 100%;
