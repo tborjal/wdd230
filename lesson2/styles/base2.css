@@ -123,3 +123,18 @@ hr {
     padding: 20px;
 
 }
+#dropboxdesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+#appledesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+#porschedesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
