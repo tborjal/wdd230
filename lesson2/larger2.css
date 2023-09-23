@@ -1,0 +1,23 @@
+@media screen and (min-width: 800px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    #visual {
+
+    grid-column: 1/2;
+
+    }
+    #hicks {
+
+    grid-column: 2/3;
+
+    }
+    #ruleofthirds {
+
+    grid-column: 3/4;
+
+    }
+  }
