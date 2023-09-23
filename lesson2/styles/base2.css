@@ -16,6 +16,7 @@ footer {
     color: white;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 20px;
 }
 
 main {
@@ -45,7 +46,7 @@ height: 550px;
 grid-gap: 10px;
 
     }
-#ruleofthirds {
+#rot {
 box-shadow:14px 16px 12px -3px #4c4b4b;
 grid-row: 1/5;
 grid-column: 3/4;
@@ -74,4 +75,51 @@ a:hover {
 h2 {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+    width: 100%;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    background-color: white;
+}
+
+.visualinfo {
+    grid-row: 6/9;
+    grid-column: 1/2;
+    height: 550px;
+    grid-gap: 10px;
+    background-color:#e0e0e0;
+    border:2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+.hicksinfo {
+    grid-row: 6/9;
+    grid-column: 2/3;
+    height: 550px;
+    grid-gap: 10px;
+    background-color: #e0e0e0;
+    border:2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.rotinfo{
+    grid-row: 6/9;
+    grid-column: 3/4;
+    height: 550px;
+    grid-gap: 10px;
+    background-color: #e0e0e0;
+    border:2px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+
 }
