@@ -1,5 +1,7 @@
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 740px) {
   main {
-    grid-template-columns: repeat(2, 1fr); /* Two columns for medium devices */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 }
