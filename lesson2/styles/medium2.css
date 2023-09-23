@@ -1,7 +1,12 @@
-@media screen and (min-width: 740px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   main {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .card {
+    grid-row: auto; /* Reset grid positioning */
+    grid-column: auto; /* Reset grid positioning */
+    height: auto;
   }
 }

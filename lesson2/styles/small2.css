@@ -1,6 +1,13 @@
-
-@media screen and (max-width: 767px) {
+/* One Column */
+@media (max-width: 767px) {
   main {
-    grid-template-columns: 1fr; /* One column for small devices */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  .card {
+    grid-row: auto; /* Reset grid positioning */
+    grid-column: auto; /* Reset grid positioning */
+    height: auto;
   }
 }
