@@ -1,12 +1,22 @@
-@media (min-width: 1024px) {
-  main {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 20px;
-  }
-  .card {
-    grid-row: auto; /* Reset grid positioning */
-    grid-column: auto; /* Reset grid positioning */
-    height: auto;
-  }
+@media screen and (min-width: 60em) { 
+  main { 
+      display: inline-flex; 
+      margin: 0rem auto; 
+      padding: 1rem; 
+      padding: 0rem; 
+      gap: 5px; 
+  } 
+  section { 
+      width: 70%; 
+  } 
+  main section:last-child { 
+      width: 60%; 
+      margin: var(--margin); 
+      max-width: 350px; 
+      max-height: 900px; 
+  } 
+  .mobile-view img { 
+      width: 95%;  
+      min-width: 240px; 
+  } 
 }
