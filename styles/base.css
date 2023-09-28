@@ -102,7 +102,7 @@ img{
     height: 150px;
 } 
 nav{
-    margin:0px;
+    margin: 27.5px;
     display: flex;
     flex-direction: column;
     background-color: white;

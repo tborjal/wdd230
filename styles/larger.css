@@ -3,11 +3,11 @@
   main {
     display: grid;
     grid-template-columns: 1fr 0.3fr;
-    margin: 3rem ;
+    margin: 3 rem ;
   }
     nav {
-      display: flex;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       justify-content: space-around;
     }
     h1 {
