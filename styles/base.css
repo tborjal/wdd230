@@ -1,9 +1,31 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
 
+* {
+box-sizing: border-box;
+}
+header {
+    background-color: darkolivegreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
 .container1 {
-    display:grid;
-    justify-content: center;
+    text-align: right;
+}
+.container1-1{
+    text-align: left;
+    justify-items: center;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 
 .container2 {
@@ -26,38 +48,24 @@
     display:grid;
     justify-content: center;
     border: 1px solid black;
-    padding: 10px;
+    padding: 50px;
     box-sizing: border-box;
     background-color: white;
    
 }
 
-.footer{
-
+footer{
     background-color: darkolivegreen;
-    display:grid;
-    justify-content: center;
     border: 1px solid black;
-    padding: 10px;
-    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    padding: 50px;
 }
 
-.copyright {
-    display: flex;
-    color: white;
-    top: 50px;
-    }
-.copylogo {
-    display: flex;
-    color: white;
-}
-
-.modify {
-
-    right: 50px;
-    z-index: 2;
-}
 p {
+    color: white;
+}
+span {
     color: white;
 }
 
@@ -76,7 +84,7 @@ ol {
 }
 
 h1 {
-
+    margin: 0.67em;
     color:white;
 }
 
@@ -90,41 +98,30 @@ body {
     background-color: darkolivegreen;
 }
 
-.myname1 {
-    
-    position: relative;
-    bottom: 50px;
-    left: 175px;
-    color: white;
-
-
-}
 div a {
 
     display: block;
 }
 
 img{
-    display: grid;
     width: 150px;
     height: 150px;
-    position: relative;
-    top: 50px;
 } 
 nav{
-    display:grid;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
     color: azure;
     list-style:none;  
   }
   
 nav a {
+    margin: 0.5rem;
     text-decoration:none;
-    padding: 0;
     color:black;
     font-family:'Teko', sans-serif;
     text-align:center;
-    padding:  8px;
   }
   
   nav a:hover{
@@ -134,7 +131,7 @@ nav a {
     color: white
   
   }
-  .me3 {
-    
-    color: white;
+  header, nav, main {
+    max-width: 100%;
+    margin: 1rem auto;
   }
