@@ -28,12 +28,6 @@ main {
     margin-left: 20px;
 }
 
-.container2 {
-    display:flex;
-    justify-content: center;
-   
-}
-
 .container3 {
     display:grid;
     justify-content: center;
@@ -59,7 +53,7 @@ footer{
     border: 1px solid black;
     position: relative;
     text-align: center;
-    padding: 50px;
+    padding: 3rem;
 }
 
 p {
@@ -108,7 +102,7 @@ img{
     height: 150px;
 } 
 nav{
-    margin-top: 0px;
+    margin:0px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -133,5 +127,4 @@ nav a {
   }
   header, nav, main {
     max-width: 100%;
-    margin: 1rem auto;
   }

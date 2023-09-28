@@ -2,7 +2,8 @@
 
   main {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 0.3fr;
+    margin: 3rem ;
   }
     nav {
       display: flex;
