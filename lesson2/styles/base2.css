@@ -5,6 +5,11 @@ header {
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+header, main, footer {
+    margin: 1rem auto;
+    max-width: 100%;
+}
 #examples {
         display: flex;
         justify-content: center;
@@ -25,20 +30,20 @@ footer {
 
 main {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    justify-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-left: 7rem;
 }
 section {
     width: 70%;
     text-align: center;
+    padding: 1rem;
 }
 
 #visual {
 box-shadow:14px 16px 12px -3px#4c4b4b;
  grid-row: 1/5;
  grid-column: 1/2;
- height: 550px;
  grid-gap: 10px;
 
     }
@@ -46,7 +51,6 @@ box-shadow:14px 16px 12px -3px#4c4b4b;
 box-shadow:14px 16px 12px -3px #4c4b4b;
 grid-row: 1/5;
 grid-column: 2/3;
-height: 550px;
 grid-gap: 10px;
 
     }
@@ -54,17 +58,14 @@ grid-gap: 10px;
 box-shadow:14px 16px 12px -3px #4c4b4b;
 grid-row: 1/5;
 grid-column: 3/4;
-height: 550px;
 grid-gap:10px;
 
 }
 
 img {
 
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 400px;
+    width:100%;
+    max-width: 100%;
     
 }
 a {

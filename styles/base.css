@@ -47,7 +47,60 @@ main {
     background-color: white;
    
 }
+.navlist {
+    display: flex;
+}
+.show li {
+    width: 100%;
+}
+#menu {
+    display:inline-block;
+    background-color: gainsboro;
+    color:black;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: 11.5rem;
+}
+#menu::before {
+  content: "≡";
+}
+#menu.show::before {
+  content: "X";
+}
+.navlist {
+  display: flex;
+  flex-direction: column;
+  color: #e0ffff;
+}
+.navlist li {
+  display: none;
+}
+.navlist li a {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Mooli', sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+.active::after {
+    content: " ⁕";
+  }
+.show li {
+  display: block;
+  width: 100%;
+}
+.show li a {
+  display: block;
+}
 
+nav {
+  margin: 0px auto;
+  padding: 1rem;
+  background-color: #727350;
+}
 footer{
     background-color: darkolivegreen;
     border: 1px solid black;
@@ -127,4 +180,7 @@ nav a {
   }
   header, nav, main {
     max-width: 100%;
+  }
+  iframe {
+    width: 100%;
   }

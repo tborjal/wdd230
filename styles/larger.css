@@ -1,17 +1,28 @@
 @media screen and (min-width: 800px) {
 
+  #menu {
+    display:none;
+  }
+
   main {
     display: grid;
     grid-template-columns: 1fr 0.3fr;
-    margin: 3 rem ;
+    margin: 1rem ;
   }
-    nav {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      justify-content: space-around;
-    }
-    h1 {
-      grid-column: 1/3;
-    }
+  .navlist {
+    flex-direction: row;
+  }
+  .navlist li {
+    display: block;
+    flex: 1 1 100%;
+ }
+    .navlist nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+  }
+h1 {
+     grid-column: 1/3;
+  }
     }
   
