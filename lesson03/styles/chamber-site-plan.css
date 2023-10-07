@@ -79,11 +79,9 @@
   }
   .typo1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
   }
   .typo2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
   }
   #wireframe {
     display: grid;
