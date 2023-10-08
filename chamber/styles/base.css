@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lato:wght@100&family=Mooli&family=Oswald:wght@300&display=swap');
 
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,6 +14,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
 }
 .logo {
     cursor: pointer;
@@ -36,9 +41,7 @@ display: inline-block;
 padding: 0px 20px;
 
 }
-
 .nav_links li a {
-
     transition: all 0.3s ease 0s;
 }
 
@@ -50,9 +53,34 @@ padding: 0px 20px;
     grid-template-rows: 1fr;
     gap: 1.5em;
 }
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+    padding: 30px;
+}
+.three {
+    display: grid;
+    grid-template-columns: 1fr 250px 250px 1fr;
+    height: 350px;
+}
+
+.two p {
+    text-align: center;
+}
 .marikina {
     width: 100%;
     height: 700px;
+}
+.marikina2 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.marikina3 {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
 .join{
     display: inline-block;
@@ -77,3 +105,48 @@ footer {
 footer p {
     text-align: center;
 }
+header, footer, main{
+    max-width: 100%;
+    margin: 0;
+}
+
+#menu {
+    display: inline-block;
+    background: var(--sub-bg);
+    color: var(--pry-color);
+    font-size: 2.2rem;
+    padding: 0.4rem 0.7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #menu::before {
+    content: "≡";
+  }
+  #menu.show::before {
+    content: "X";
+  }
+
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    color: #1d1b1d;
+  }
+  .nav_links li {
+    display: none;
+  }
+  .nav_links li a {
+    display: block;
+    padding: 0.6rem;
+    text-decoration: none;
+    font-family: 'AR One Sans', sans-serif;
+    font-size: 1rem;
+    color: #1d1b1d;
+  }
+  .show li {
+    display: block;
+    width: 100%;
+  }
+  .show li a {
+    display: block;
+  }
