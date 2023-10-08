@@ -129,7 +129,7 @@ header, footer, main{
 
   .nav_links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: #1d1b1d;
   }
   .nav_links li {
