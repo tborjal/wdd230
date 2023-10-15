@@ -150,3 +150,15 @@ header, footer, main{
   .show li a {
     display: block;
   }
+
+  .light-mode {
+    /* CSS styles for light mode */
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark-mode {
+    /* CSS styles for dark mode */
+    background-color: #333;
+    color: #fff;
+  }
