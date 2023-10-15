@@ -162,3 +162,41 @@ header, footer, main{
     background-color: #333;
     color: #fff;
   }
+  /* Hide the checkbox input */
+#darkModeSwitch {
+    display: none;
+  }
+  
+  /* Styles for the switch container */
+  #switchLabel {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 17px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Styles for the switch toggle */
+  #switchLabel::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s;
+  }
+  
+  /* Styles for the switch toggle when in dark mode */
+  #darkModeSwitch:checked + #switchLabel {
+    background-color: #63717f;
+  }
+  
+  #darkModeSwitch:checked + #switchLabel::before {
+    transform: translateX(26px);
+  }
