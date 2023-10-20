@@ -13,7 +13,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/small.css">
 </head>
 <body>
     <header>
@@ -36,9 +36,9 @@
     </nav>
     <div class="hero">
     <picture>
-        <source srcset="./images/san-diego-large.webp" media="(min-width: 1200px)">
-        <source srcset="./mages/san-diego-medium.webp" media="(min-width: 768px)">
-        <img src="images/san-diego-small.webp" alt="Urdaneta Temple">
+        <source srcset="./images/san-diego-large.webp" media="(min-width:800px)">
+        <source srcset="./mages/san-diego-medium.webp" media="(min-width:790px)">
+        <img src="images/san-diego-temple.jpeg" alt="San Diego Temple">
     </picture>
     <div class="temple-label">
         <p>San Diego California Temple</p>
@@ -64,8 +64,10 @@
     </section>
     <section class="container4">
         <h3>Information:</h3>
-        <h4>Today's Weather: ---</h4>
+        <h4>Today's Weather:</h4>
+        <div id="weather-container"></div>
         <h4>Number of Visits:</h4>
+        <div id="visits-count"></div>
         <h4>Manila, Philippines</h4>
     </section>
     </main>
@@ -75,7 +77,9 @@
         <p id="last-modified"></p>
         <p> Terence Borjal - Philippines</p>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/getdate.js"></script>
     <script src="scripts/nav.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>

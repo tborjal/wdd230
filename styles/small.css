@@ -1,51 +1,28 @@
-body {
+@media screen and (min-width: 768px) {
+
+  #menu {
+    display:none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    margin: 1rem ;
+  }
+  .navlist {
+    flex-direction: row;
+  }
+  .navlist li {
     display: block;
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-    margin: 10px auto;
-    width: 400px;
+    flex: 1 1 100%;
+ }
+    .navlist nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
   }
-  h1 {
-    padding: 15px;
-    font-size: 1.0rem;
+h1 {
+     grid-column: 1/3;
   }
-  h2 {
-    display: block;
-    font-size: 1.1em;
-    font-weight: bold;
-  }
-  header {
-    display: flex;
-  }
-  footer {
-  display: block;
-  justify-content: center;
-  text-align: center; 
-  }
-  .shadowbox {
-    color: white;
-    background-color: darkgreen;
-    padding: 15px;
-    border-radius: 5px;
-    margin: auto;
-    align-items: center;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);  
-  }
-  img {
-    padding: 0px;
-    width: 250px;
-    height: 250px;
-    border-radius: 5px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);
-  }
-  
-  #lastupdated {
-    color: black;
-    font-size: 0.9em;
-  }
-  
-  li {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+    }
   
