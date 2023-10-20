@@ -184,3 +184,21 @@ nav a {
   iframe {
     width: 100%;
   }
+  .hero {
+    position:relative;
+  }
+  .hero picture {
+    width: 100%;
+  }
+  .hero img {
+    width: 100%;
+    height: 1000px;
+  }
+  .temple-label {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: radial-gradient(#056c21fa, darkolivegreen);
+    border: 1px solid rgba(0,0,0,.75);
+    padding: 1.5rem;
+  }
