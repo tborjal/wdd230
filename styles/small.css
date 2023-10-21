@@ -3,7 +3,6 @@
   #menu {
     display:none;
   }
-
   main {
     display: grid;
     grid-template-columns: 1fr 0.3fr;

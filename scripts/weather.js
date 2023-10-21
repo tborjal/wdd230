@@ -1,4 +1,4 @@
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Marikina&appid=1458c99c095eddcf9b2ee85277043bda&units=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Marikina&appid=cfbc350a48add4351adda1aa5356d418&units=imperial`;
   
   // Retrieve weather data from OpenWeatherMap API
   fetch(url)
