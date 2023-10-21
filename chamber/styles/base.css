@@ -206,3 +206,19 @@ header, footer, main{
   #darkModeSwitch:checked + #switchLabel::before {
     transform: translateX(26px);
   }
+
+    #weather-info {
+      text-align: center;
+      border: 1px solid;
+      width: 350px;
+      height: 350px;
+      background-color:#deb887 ;
+    }
+  #weather-info p {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  #weather-info h2 {
+    padding: 20px;
+  }
