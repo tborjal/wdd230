@@ -15,7 +15,7 @@
     display: block;
     flex: 1 1 100%;
  }
-    .navlist nav {
+   .navlist nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: space-around;
