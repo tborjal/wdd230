@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Lato:wght@100&family=Mooli&family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+font-family: 'AR One Sans', sans-serif;
+}
+header {
+    background-color: #154809;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* CSS styles for the navigation links */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav li a:hover {
+    color: gray;
+  }
+
+  /* CSS styles for the logo image */
+  .logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+
+  /* CSS styles for the heading */
+  h1 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 640px) {
+    .logo img {
+      height: 40px;
+      width: 40px;
+    }
+
+    h1 {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .logo img {
+      height: 30px;
+      width: 30px;
+    }
+
+    h1 {
+      font-size: 14px;
+    }
+  }
+
+
+  /* Dark Mode and Light Mode */
+
+   .light-mode {
+    /* CSS styles for light mode */
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .dark-mode {
+    /* CSS styles for dark mode */
+    background-color: #333;
+    color: #fff;
+  }
+  /* Hide the checkbox input */
+#darkModeSwitch {
+    display: none;
+  }
+  
+  /* Styles for the switch container */
+  #switchLabel {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 17px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Styles for the switch toggle */
+  #switchLabel::before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 4px;
+    left: 4px;
+    transition: transform 0.3s;
+  }
+  
+  /* Styles for the switch toggle when in dark mode */
+  #darkModeSwitch:checked + #switchLabel {
+    background-color: #63717f;
+  }
+  
+  #darkModeSwitch:checked + #switchLabel::before {
+    transform: translateX(26px);
+  }
+
+  #menu {
+    display: inline-block;
+    background: var(--sub-bg);
+    font-size: 2.2rem;
+    padding: 0.4rem 0.7rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #menu::before {
+    content: "≡";
+  }
+  #menu.show::before {
+    content: "X";
+  }
+  .nav_links li {
+    display: none;
+  }
+  .nav_links{
+    display: flex;
+    flex-direction: column;
+    color: var(--main-bg);
+  }
+ .show li {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    top: 10rem;
+    right: 14rem;
+    background-color: green;
+    width: 100%;
+    margin: 5px;
+  }
+.show li a {
+  display: block;
+  gap: 1rem;
+}
+  
+

@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 1473px;
     padding: 30px 10%;
 }
 main {
@@ -90,8 +90,7 @@ padding: 0px 20px;
     padding: 10px;
 }
 .marikina3 {
-    width: 100%;
-    height: 100%;
+    width: 500px;
     padding: 10px;
 }
 .join{
