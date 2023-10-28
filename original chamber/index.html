@@ -37,21 +37,44 @@
             </ul>
         </nav>
     </header>
-    </body>
     <main>
+        <section>
+            <div id="weather-info">
+            <h2>Weather Info</h2>
+            <img id="weather-icon" src="./images/weather.png" alt="Weather Icon">
+            <p><span id="city">Your City Name</span></p>
+            <p>Temperature: <span id="temperature">Loading...</span></p>
+            <p> <span id="windChill">Loading...</span></p>
+            <p><span id="humidity">Loading...</span></p>
+            </div>
+        </section>
         <section>
             <div id="hero">
                 <picture>
-                <source srcset="./images/hero-medium.webp" media="(min-width: 700px)">
-                <source srcset="./images/hero-medium.webp" media="(min-width: 500px)">  
-                <img class="marikina" src="images/hero.jpeg" alt="marikina">
+                <source srcset="images/hero.webp" media="(min-width: 700px)">
+                <source srcset="images/hero.webp" media="(min-width: 500px)">  
+                <img class="marikina" src="images/hero.webp" alt="marikina">
                 </picture>
             </div>
         </section>
-
-
-
-    </main>
+        <section>
+            <p>hi</p>
+        </section>
+        <section>
+            <h2>Upcoming Events</h2>
+        </section>
+        <section>
+            <h2>Learn More about Us</h2>
+        </section>
+        <section>
+            <h2>Our New Business</h2>
+        </section>
+        </main>
+        <footer>
+            <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project | <span><p id="last-modified"></p></span></p>
+        </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/getdate.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
