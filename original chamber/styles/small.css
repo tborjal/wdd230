@@ -1,0 +1,19 @@
+@media screen and (max-width: 414px) {
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin:0;
+  }
+  #weather-info {
+
+    margin: 1em 5.5em;
+  }
+  .hero {
+    border: 1px black solid;
+  }
+  .new-business {
+    order:2;
+    margin-bottom: 0.4em;
+  }
+}

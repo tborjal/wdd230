@@ -1,0 +1,9 @@
+@media screen and (max-width: 751px) {
+    
+    main {
+        grid-template-columns: 1fr;
+    }
+.new-business {
+    order: 2;
+}
+}

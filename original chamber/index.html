@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -38,6 +40,25 @@
         </nav>
     </header>
     <main>
+        <section class="new-business">
+            <h2>Our New Business</h2>
+        </section>
+        <section class="hero">
+            <picture>
+                <source media="(min-width: 700px)" srcset="./images/hero-medium.webp">
+                <source media="(min-width: 414px)" srcset="./images/hero-small.webp">
+                <img src="./images/hero-small.webp" alt="Hero Image">
+            </picture>
+        </section>
+        <section class="latest-news">
+            <h2>Latest News</h2>
+        </section>
+        <section class="learn-more">
+            <h2>Learn About Us</h2>
+        </section>
+        <section class="upcoming-events">
+            <h2>Upcoming Events</h2>
+        </section>
         <section>
             <div id="weather-info">
             <h2>Weather Info</h2>
@@ -48,30 +69,9 @@
             <p><span id="humidity">Loading...</span></p>
             </div>
         </section>
-        <section>
-            <div id="hero">
-                <picture>
-                <source srcset="images/hero.webp" media="(min-width: 700px)">
-                <source srcset="images/hero.webp" media="(min-width: 500px)">  
-                <img class="marikina" src="images/hero.webp" alt="marikina">
-                </picture>
-            </div>
-        </section>
-        <section>
-            <p>hi</p>
-        </section>
-        <section>
-            <h2>Upcoming Events</h2>
-        </section>
-        <section>
-            <h2>Learn More about Us</h2>
-        </section>
-        <section>
-            <h2>Our New Business</h2>
-        </section>
-        </main>
+        </main> 
         <footer>
-            <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project | <span><p id="last-modified"></p></span></p>
+            <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project<span><p id="last-modified"></p></span></p>
         </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/getdate.js"></script>
