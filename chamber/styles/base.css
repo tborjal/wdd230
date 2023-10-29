@@ -323,3 +323,32 @@ padding: 0.5em;
     height: 2rem;
     margin: 0.3rem;
   }
+  .riverbanks ul{
+    margin: 0.5rem;
+    list-style-type: disc;
+  }
+  .riverbanks p, li{
+    text-align: left;
+    margin: 0.5rem;
+  
+  }
+  .riverbanks, h2{
+    text-align: center;
+  }
+  .sports-center, p{
+    margin: 0.5rem;
+    text-align: left;
+  }
+  #date {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+  }
+  #visitMessage{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+
+  
