@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,12 +26,11 @@
     <header>
         <nav>
             <ul class="menu">
-                <li class="marikina-logo"><img src="images/marikina.webp"></li>
+                <li class="marikina-logo"><img src="images/marikina.webp" alt="Marikina Logo"></li>
                 <li class="logo"><a href="#">Marikina Chamber of Commerce</a></li>
                 <li class="item"><a href="index.html">Home</a></li>
                 <li class="item"><a href="discover.html">Discover</a></li>
                 <li class="item"><a href="#">Directory</a></li>
-                </li>
                 <li class="item button"><a href="#">Join Now</a></li>
                 <li class="item button secondary">
                     <input type="checkbox" id="darkModeSwitch">
@@ -43,13 +43,13 @@
         <section class="new-business">
             <h2>Our New Business</h2>
         </section>
-        <section class="hero">
+        <div class="hero">
             <picture>
                 <source media="(min-width: 700px)" srcset="./images/hero-medium.webp">
                 <source media="(min-width: 414px)" srcset="./images/hero-small.webp">
                 <img src="./images/hero-small.webp" alt="Hero Image">
             </picture>
-        </section>
+        </div>
         <section class="latest-news">
             <h2>Latest News</h2>
         </section>
@@ -71,7 +71,8 @@
         </section>
         </main> 
         <footer>
-            <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project<span><p id="last-modified"></p></span></p>
+            <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project</p>
+            <p id="last-modified"></p>
         </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/getdate.js"></script>
