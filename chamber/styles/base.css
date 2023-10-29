@@ -316,6 +316,7 @@ padding: 0.5em;
   section img {
     border: 1px solid black;
     border-radius: 0.5rem;
+    margin-top:  3rem;
   }
   .visit-history{
 
@@ -349,5 +350,19 @@ padding: 0.5em;
     font-size: 1.5rem;
     margin: 0.5rem;
   }
+  .riverbanks {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 10px;
+  }
+  .sports-center{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 10px;
+  }
+  .giant-shoe{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 10px;
 
-  
+  }
