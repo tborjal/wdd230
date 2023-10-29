@@ -16,4 +16,15 @@
     order:2;
     margin-bottom: 0.4em;
   }
+  .discover {
+      grid-template-columns: 1fr;
+      grid-template-rows: 320px 1fr 320px 1fr 320px ;
+  }
+  .discover img {
+    width: 100%;
+    height: 20em;
+  }
+  .card {
+    height: 2rem;
+  }
 }
