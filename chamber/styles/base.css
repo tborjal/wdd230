@@ -312,7 +312,7 @@ padding: 0.5em;
     height: 2rem;
     background-color: #ccc;
   }
-  section img {
+  div img {
     border: 1px solid black;
     border-radius: 0.5rem;
     margin-top:  3rem;
