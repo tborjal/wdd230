@@ -18,7 +18,7 @@
   }
   .discover {
       grid-template-columns: 1fr;
-      grid-template-rows: 320px 1fr 320px 480px 320px ;
+      grid-template-rows: 320px 1fr 320px 1fr 320px auto;
   }
   .discover img {
     width: 100%;
