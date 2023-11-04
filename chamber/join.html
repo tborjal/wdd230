@@ -107,11 +107,11 @@
         <form action="thankyou.html" method="GET">
             <h2 class="membership-title">Membership Application</h2>
             <hr>
-            <label class="label-items" for="firstname">First Name</label>
-            <input class ="input-text" type="text" id="firstame" name="firstname" required>
+            <label class="label-items" for="firstname" plcaeholder="First Name...">First Name</label>
+            <input class ="input-text" type="text" placeholder="First Name..." id="firstame" name="firstname" required>
 
             <label class="label-items" for="lastname">Last Name</label>
-            <input class ="input-text" type="text" id="lastame" name="lastname" required>
+            <input class ="input-text" type="text" placeholder="Last Name..." id="lastame" name="lastname" required>
       
             <label class="label-items" for="position">Title/Position</label>
             <input class ="input-text" type="text" id="position" pattern="^[a-zA-Z\s-]{7,}$"  placeholder="Enter your organizational position or title"  name="position" required>
@@ -131,6 +131,8 @@
             <label class="label-items" for="business-description">Description</label>
             <input class="input-description" type="text" id="business-description" placeholder="Please input details..." name="business-description" required>
 
+            <input type="hidden" id="timestamp" name="timestamp">
+
             <datalist id="l1">
                 <option>NP</option>
                 <option>Bronze</option>
@@ -139,7 +141,7 @@
             </datalist>
 
             <div>
-            <button class="submit" type="submit">Submit</button>
+            <button class="submit" type="submit" href="thankyou.html" target="_blank">Submit</button>
             </div>
           </form>
    

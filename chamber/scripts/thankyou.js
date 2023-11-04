@@ -8,3 +8,6 @@ range.addEventListener('input', displayRatingValue);
 function displayRatingValue() {
     rangevalue.innerHTML = range.value;
 }
+
+var timestampInput = document.getElementById('timestamp');
+timestampInput.value = new Date().toISOString();
