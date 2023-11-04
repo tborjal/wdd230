@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/join.css">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,42 +29,47 @@
                 <li class="logo"><a href="#">Marikina Chamber of Commerce</a></li>
                 <li class="item"><a href="index.html">Home</a></li>
                 <li class="item"><a href="discover.html">Discover</a></li>
-                <li class="item"><a href="">Directory</a></li>
-                <li class="item button"><a href="join.html">Join Now</a></li>
+                <li class="item"><a href="join.html">Directory</a></li>
+                <li class="item button"><a href="#">Join Now</a></li>
                 <li class="toggle"><button id="menu" aria-label="menu-list"></button></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="new-business">
-            <h2>Our New Business</h2>
-        </section>
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 700px)" srcset="./images/hero-medium.webp">
-                <source media="(min-width: 414px)" srcset="./images/hero-small.webp">
-                <img src="./images/hero-small.webp" alt="Hero Image">
-            </picture>
-        </div>
-        <section class="latest-news">
-            <h2>Latest News</h2>
-        </section>
-        <section class="learn-more">
-            <h2>Learn About Us</h2>
-        </section>
-        <section class="upcoming-events">
-            <h2>Upcoming Events</h2>
-        </section>
-        <section>
-            <div id="weather-info">
-            <h2>Weather Info</h2>
-            <img id="weather-icon" src="./images/weather.png" alt="Weather Icon">
-            <p><span id="city">Your City Name</span></p>
-            <p>Temperature: <span id="temperature">Loading...</span></p>
-            <p> <span id="windChill">Loading...</span></p>
-            <p><span id="humidity">Loading...</span></p>
+    <div>
+        <h1>Join Us!</h1>
+    </div>
+    <main class="joinform">
+        <form action="thankyou.html" method="GET">
+            <label class="label-items" for="username">Username</label>
+            <input class ="input-text" type="text" id="username" name="username" required>
+      
+            <label class="label-items" for="password">Password</label>
+            <input class ="input-password" type="password" id="password" pattern="^[a-zA-Z0-9]{8,}$" name="password" required>
+      
+            <label class="label-items" for="email">Email</label>
+            <input class="input-email" type="email" id="email" name="email" placeholder="Please Enter a valid Email Address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+
+            <label class="label-items" for="pagerating">Page Rating</label>
+            <div id="rangevalue">0</div>
+            <input class="input-range" type="range" id="pagerating" name="pagerating" min="0" max="10" value="0" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+	            <option value="0">0</option>
+	            <option value="1">1</option>
+	            <option value="2">2</option>
+	            <option value="3">3</option>
+	            <option value="4">4</option>
+                <option value="5">5</option>
+	            <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <div>
+            <button class="submit" type="submit">Submit</button>
             </div>
-        </section>
+          </form>
+   
         </main> 
         <footer>
             <p>Terence Borjal - WDD 230 - Marikina City Chamber of Commerce Project</p>
@@ -71,6 +77,6 @@
         </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/getdate.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/thankyou.js"></script>
 </body>
 </html>
