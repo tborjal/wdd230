@@ -39,32 +39,104 @@
         <h1>Join Us!</h1>
     </div>
     <main class="joinform">
+        <div class="membership-div">
+            <table>
+                <tr>
+                    <th class="heading-join">Membership Levels</th>
+                    <th>NP Membership</th>
+                    <th>Bronze Membership</th>
+                    <th>Silver Membership</th>
+                    <th>Gold Membership</th>
+                    
+                </tr>
+                <!--Titles-->
+                <tr>
+                    <td>Details</td>
+                    <td>Cost:Free</td>
+                    <td>Cost: $50 /Month</td>
+                    <td>Cost: $75 /Month</td>
+                    <td>Cost: $100 /Month</td>
+                </tr>
+                <tr>
+                    <td class="descriptions"><!--Row 1 Description-->
+                        <ul>
+                            <li>- Discounts of up 50% in Marketing Campaigns<br>- Internal Promoting between businesses associated.<br>- 2% Refferal couta.</li>
+                            <li>- Discounts in all our associated businesses (20% - 40%).<BR>- Referral assistance (Project Manager Tutoring).<br>- 50% Discount on training events and workshops.</li>
+                            <li>- Semi-annual Participation in the Chamber Conference<br>- Your business becomes part of our branding campaign<br>- Referrals Bonuses of 5% of monthly quota.</li>
+                            <li>- Opinion in general councils and decision making for spreading opportunities<br>- 60% discounts buying in all associated commerces<br>Includes all Bronze and Silver benefits</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <!--NP Section-->
+                        <ul>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <!--Silver Section-->
+                        <ul>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/xmark.png" alt="check" width="75" height="75"></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                            <li><img src="./images/checkmark.jpeg" alt="check" width="75" height="75"></li>
+                        </ul>
+                    </td>
+                </tr>
+               
+            </table>
+        </div>
+    </div>
+
         <form action="thankyou.html" method="GET">
-            <label class="label-items" for="username">Username</label>
-            <input class ="input-text" type="text" id="username" name="username" required>
+            <h2 class="membership-title">Membership Application</h2>
+            <hr>
+            <label class="label-items" for="firstname">First Name</label>
+            <input class ="input-text" type="text" id="firstame" name="firstname" required>
+
+            <label class="label-items" for="lastname">Last Name</label>
+            <input class ="input-text" type="text" id="lastame" name="lastname" required>
       
-            <label class="label-items" for="password">Password</label>
-            <input class ="input-password" type="password" id="password" pattern="^[a-zA-Z0-9]{8,}$" name="password" required>
+            <label class="label-items" for="position">Title/Position</label>
+            <input class ="input-text" type="text" id="position" pattern="^[a-zA-Z\s-]{7,}$"  placeholder="Enter your organizational position or title"  name="position" required>
       
             <label class="label-items" for="email">Email</label>
-            <input class="input-email" type="email" id="email" name="email" placeholder="Please Enter a valid Email Address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required>
+            <input class="input-email" type="email" id="email" name="email" placeholder="me@email.com" pattern="[a-zA-Z0-9._%+-]$" required>
 
-            <label class="label-items" for="pagerating">Page Rating</label>
-            <div id="rangevalue">0</div>
-            <input class="input-range" type="range" id="pagerating" name="pagerating" min="0" max="10" value="0" step="1" list="rangevalues">
-            <datalist id="rangevalues">
-	            <option value="0">0</option>
-	            <option value="1">1</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-                <option value="5">5</option>
-	            <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
+            <label class="label-items "for="mobile">Mobile Number</label>
+            <input class="input-telephone"type="tel" id="mobile" name="mobile" placeholder="+63 90..." required>
+
+            <label class="label-items" for="business">Business/Organization Name</label>
+            <input class="input-text" type="text" id="business" name="business" required>
+
+            <label class="label-items" for="membership-level">Membership Level: <abbr title="This field is mandatory" aria-label="required"></abbr></label>
+            <input class="input-dropdown "type="text" id="membership-level" name="membership-level" list="l1" required>
+
+            <datalist id="l1">
+                <option>NP</option>
+                <option>Bronze</option>
+                <option>Silver</option>
+                <option>Gold</option>
             </datalist>
+
             <div>
             <button class="submit" type="submit">Submit</button>
             </div>
