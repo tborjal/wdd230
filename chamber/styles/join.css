@@ -5,7 +5,7 @@ body {
   .joinform {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 625px 1fr;
     width: 100%;
     height: 100%;
     margin: 1rem 3rem;
@@ -42,6 +42,16 @@ body {
     box-sizing: border-box;
     margin-right: 27em;
   }
+  .input-description[type="text"]{
+    width: 400px;
+    height: 180px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 27em;
+  }
 
   .submit {
     padding: 10px 20px;
@@ -54,7 +64,7 @@ body {
 
   form {
     width: 600px;
-    height: 850px;
+    height: 100%;
     margin: auto;
     padding: 50px;
     border: 1px solid black;
@@ -67,6 +77,7 @@ body {
   table {
     border-collapse: collapse;
     width: 1300px;
+    height: 500px;
     border: 2px solid #000; /* Table border color */
     margin-left: 17em;
 }
@@ -94,4 +105,7 @@ table img {
 }
 .membership-title {
   padding: 20px;
+}
+td ul li {
+  padding: 25px;
 }

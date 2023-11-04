@@ -39,7 +39,6 @@
         <h1>Join Us!</h1>
     </div>
     <main class="joinform">
-        <div class="membership-div">
             <table>
                 <tr>
                     <th class="heading-join">Membership Levels</th>
@@ -104,7 +103,6 @@
                
             </table>
         </div>
-    </div>
 
         <form action="thankyou.html" method="GET">
             <h2 class="membership-title">Membership Application</h2>
@@ -129,6 +127,9 @@
 
             <label class="label-items" for="membership-level">Membership Level: <abbr title="This field is mandatory" aria-label="required"></abbr></label>
             <input class="input-dropdown "type="text" id="membership-level" name="membership-level" list="l1" required>
+
+            <label class="label-items" for="business-description">Description</label>
+            <input class="input-description" type="text" id="business-description" placeholder="Please input details..." name="business-description" required>
 
             <datalist id="l1">
                 <option>NP</option>
