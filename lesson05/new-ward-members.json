@@ -1,0 +1,13 @@
+{
+    "familyNname" : "Borjal",
+    "dateMoved" : "2015-06-15",
+    "numberOfPeopleIntheFamily" : 4,
+    "VisitedbyBishopric" : true,
+    "familyMembers" : [
+      {
+        "name" : "Terence",
+        "gender" : "male",
+        "birthdate" : "2000-07-04"
+      }
+    ]
+}
