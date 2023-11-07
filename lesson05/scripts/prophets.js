@@ -30,7 +30,6 @@ async function getProphetData() {
      // Append the section(card) with the created elements
      card.appendChild(fullName); //fill in the blank
      card.appendChild(portrait);
- 
      cards.appendChild(card);
 
     });
