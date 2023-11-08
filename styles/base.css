@@ -216,3 +216,18 @@ nav a {
   .container3 ol li a:hover {
     color: green;
   }
+  p {
+    color:black;
+  }
+  .lesson-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .lesson-container ul li a {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  }
+  .lesson-container ul li a:hover {
+    color: green;
+  }

@@ -35,11 +35,11 @@ async function getLinks() {
   }
 
   function displayLinks(weeks) {
-      const linksContainer = document.querySelector('.container3');
+      const linksContainer = document.querySelector('.lesson-container');
 
       for (const week of weeks.lessons) {
           const weekTitle = `${week.lesson}`;
-          const linksList = document.createElement('ol');
+          const linksList = document.createElement('ul');
 
           for (const link of week.links) {
               const listItem = document.createElement('li');
