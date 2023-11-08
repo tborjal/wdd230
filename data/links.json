@@ -1,10 +1,10 @@
 {
     "lessons": [
       {
-        "lesson" : "02",
+        "lesson" : "Week 02",
         "links" : [
             {
-            "url" : "lesson02/design-principles.html",
+            "url" : "lesson2/design-principles.html",
             "title" : "Design Principles Document"
             },
             {
@@ -15,7 +15,7 @@
         },
 
         {
-        "lesson" : "03",
+        "lesson" : " Week 03",
         "links" : [
             {
             "url" : "lesson03/combinator.html",
@@ -32,7 +32,7 @@
         ]
         },
         {
-        "lesson" : "04",
+        "lesson" : "Week 04",
         "links" : [
             {
             "url" : "lesson05/https://codepen.io/blazzard-jason/pen/bGKLQMp",
@@ -41,7 +41,7 @@
         ]
         },
         {
-        "lesson" : "05",
+        "lesson" : "Week 05",
         "links" : [
             {
             "url" : "lesson05/bom.html",
@@ -50,7 +50,7 @@
         ]
         },
         {
-        "lesson" : "06",
+        "lesson" : "Week 06",
         "links" : [
             {
             "url" : "lesson03/images/landscape.webp",
@@ -63,7 +63,7 @@
         ]
         },
         {
-        "lesson" : "07",
+        "lesson" : "Week 07",
         "links" : [
             {
             "url" : "lesson03/lazyload.html",
@@ -76,7 +76,7 @@
         ]
         },
         {
-        "lesson" : "08",
+        "lesson" : "Week 08",
         "links" : [
             {
             "url" : "form.html",
@@ -89,7 +89,7 @@
         ]
         },
         {
-        "lesson" : "09",
+        "lesson" : "Week 09",
         "links" : [
             {
             "url" : "lesson05/new-ward-members.json",
@@ -102,7 +102,7 @@
         ]
         },
         {
-        "lesson" : "10",
+        "lesson" : "Week 10",
         "links" : [
             {
             "url" : "",
