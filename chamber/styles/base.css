@@ -416,6 +416,13 @@ padding: 0.5em;
   max-width: 1000px;
   width: 100%;
 }
+.list-item a {
+
+  color: black;
+}
+.list-item a:hover {
+  color: yellow;
+}
 .member-image {
   width: 11em;
   height: 10em; /* Ensure the image doesn't exceed its container width */
