@@ -1,36 +1,76 @@
 const baseURL = "https://tborjal.github.io/wdd230/"; // Replace with your actual GitHub Pages URL
-const dataURL = `${baseURL}data/members.json`;
-const cards = document.querySelector('.cards');
+const linksURL = `${baseURL}/data/members.json`;
 
-async function getCompanyData() {
-    const response = await fetch(baseURL);
+// Function to load member data from JSON asynchronously
+async function loadCompanyData() {
+  try {
+    const response = await fetch(linksURL);
     const data = await response.json();
-    displayCompanies(data.companies);
+    return data.companies;
+  } catch (error) {
+     // console.error(error);
+    return [];
   }
-  
-  getCompanyData();
+}
 
-  const displayCompanies =(companies) => {
-    companies.forEach ((company) => {
+// Function to display members in grid view
+function displayGridMembers(companies) {
+  const directoryContent = document.querySelector("companies");
+  // directoryContent.innerHTML = "";
 
-     // Create elements to add to the div.cards element
-     let card = document.createElement('section');
-     let companyName = document.createElement('h3'); // fill in the blank
-     let portrait = document.createElement('img');
- 
-     // Build the h2 content out to show the prophet's full name
-     companyName.textContent = `${company.name}`; // fill in the blank
-     // Build the image portrait by setting all the relevant attributes
-     portrait.setAttribute('src', company.img);
-     portrait.setAttribute('loading', 'lazy');
-     portrait.setAttribute('width', '300');
-     portrait.setAttribute('height', '350');
- 
-     // Append the section(card) with the created elements
-     card.appendChild(companyName); //fill in the blank
-     card.appendChild(portrait);
-     cards.appendChild(card);
+  companies.forEach((company) => {
+    const memberCard = document.createElement("div");
+    memberCard.className = "member-card";
 
-    });
+    // Create member card content here
+    const cardContent = `
+      <h2>${company.name}</h2>
+      <img src="${company.img}" alt="${company.name} Image" class="member-image">
+      <p>${company.address}</p>
+      <p>${company.phone}</p>
+      <p><a href="${company.url}" target="_blank">${company.url}</a></p>
+      <p>${company.level}</p>
+      <p>Established: ${company.year}</p>
+    `;
+
+    memberCard.innerHTML = cardContent;
+    directoryContent.appendChild(memberCard);
+  });
+}
+
+// Function to display members in list view
+function displayListMembers(companies) {
+const directoryContent = document.querySelector("companies");
+  directoryContent.innerHTML = "<ul>";
+
+  companies.forEach((company) => {
+    const listItem = document.createElement("li");
+    listItem.className = "list-item";
+    listItem.innerHTML = `
+    <h2>${company.name}</h2>
+    <img src="${company.img}" alt="${company.name} Image" class="member-image">
+    <p>${company.address}</p>
+    <p>${company.phone}</p>
+    <p><a href="${company.url}" target="_blank">${company.url}</a></p>
+    <p>${company.level}</p>
+    <p>Established: ${company.year}</p>
+  `;
+    directoryContent.appendChild(listItem);
+  });
+
+  directoryContent.innerHTML += "</ul>";
+}
+
+// Function to toggle between grid and list view
+async function toggleView(view) {
+  const membersData = await loadCompanyData();
+
+  if (view === "grid") {
+    displayGridMembers(membersData);
+  } else if (view === "list") {
+    displayListMembers(membersData);
   }
-  
+}
+
+// Initially display members in grid view
+toggleView("grid");

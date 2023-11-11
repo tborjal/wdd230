@@ -5,11 +5,11 @@
         "information" : [
             {
             "address" : "Gen. Ordoñez St, Marikina, 1800 Metro Manila",
-            "phone-number" : "(02) 8942 7596",
+            "phone" : "(02) 8942 7596",
             "url" : "https://puregold.com.ph/index.php/?SID=rug1tqrje53ko3mvnis9cm67nb",
             "img" : "images/puregold.webp",
-            "membership-level": "17401",
-            "year-established": "1998"
+            "level": "Silver",
+            "year": "1998"
             }
         ]
     },
@@ -18,11 +18,11 @@
         "information" : [
             {
             "address" : "77 Lilac St, Marikina, 1811 Metro Manila",
-            "phone-number" : "(02) 8547 9137 ",
+            "phone" : "(02) 8547 9137 ",
             "url" : "https://dapoattisa.com/",
             "img" : "images/dapo-at-tisa.webp ",
-            "membership-level": "17339",
-            "year-established": "2004"
+            "level": "Gold",
+            "year": "2004"
             }
         ]   
     },
@@ -31,11 +31,11 @@
         "information" : [
             {
             "address" : "867 J. P. Rizal St, Marikina, 1800 Metro Manila",
-            "phone-number" : "(02) 8942 2682",
+            "phone" : "(02) 8942 2682",
             "url" : "https://www.facebook.com/gibsonshoes/",
             "img" : "images/gibsons.jpeg",
-            "membership-level": "17197",
-            "year-established": "2010"
+            "level": "Bronze",
+            "year": "2010"
             }
         ]
     },
@@ -44,11 +44,11 @@
         "information" : [
             {
             "address" : "13, 2nd Floor, CVJ Bldg. Nicanor Roxas St. Quezon City, Metro Manila Philippines.",
-            "phone-number" : "0917 255 9117",
+            "phone" : "0917 255 9117",
             "url" : "https://tnc.com.ph/",
             "img" : "images/tnc.jpeg",
-            "membership-level": "17621",
-            "year-established": "2007"
+            "level": "NP",
+            "year": "2007"
             }
         ]
     },
@@ -57,11 +57,11 @@
         "information" : [
             {
             "address" : "Liwasang Kalayaan, Marikina, 1810 Metro Manila",
-            "phone-number" : "0917 875 9032",
+            "phone" : "0917 875 9032",
             "url" : "https://www.facebook.com/cbcirclemall/",
             "img" : "images/c&b.jpeg",
-            "membership-level": "17545",
-            "year-established": "1994"
+            "level": "Gold",
+            "year": "1994"
             }
         ]
     },
@@ -70,11 +70,11 @@
         "information" : [
             {
             "address" : "Liwasang Kalayaan, Marikina, 1800 Metro Manila",
-            "phone-number" : "(02) 7213 3979",
+            "phone" : "(02) 7213 3979",
             "url" : "https://www.ayalamalls.com/",
             "img" : "images/ayalamalls.jpeg",
-            "membership-level": "17610",
-            "year-established": "1988"
+            "level": "Gold",
+            "year": "1988"
             }
         ]
     },
@@ -83,11 +83,11 @@
         "information" : [
             {
             "address" : "lesson2/design-principles.html",
-            "phone-number" : "(02) 8370 7294",
+            "phone" : "(02) 8370 7294",
             "url" : "https://www.facebook.com/lnjspa2gohome/",
             "img" : "images/l&j.png",
-            "membership-level": "17859",
-            "year-established": "2014"
+            "level": "Silver",
+            "year": "2014"
             }
         ]
     }
