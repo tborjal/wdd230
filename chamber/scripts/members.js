@@ -1,9 +1,9 @@
 const baseURL = "https://tborjal.github.io/wdd230/"; // Replace with your actual GitHub Pages URL
-const dataURL = `${baseURL}chamber/data/members.json`;
+const dataURL = `${baseURL}data/members.json`;
 const cards = document.querySelector('.cards');
 
 async function getCompanyData() {
-    const response = await fetch(dataURL);
+    const response = await fetch(baseURL);
     const data = await response.json();
     displayCompanies(data.companies);
   }
@@ -27,7 +27,7 @@ async function getCompanyData() {
      portrait.setAttribute('height', '350');
  
      // Append the section(card) with the created elements
-     card.appendChild(fullName); //fill in the blank
+     card.appendChild(companyName); //fill in the blank
      card.appendChild(portrait);
      cards.appendChild(card);
 
