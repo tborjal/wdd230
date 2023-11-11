@@ -32,7 +32,6 @@ async function loadMemberData() {
         <p>Membership Level: ${member.level}</p>
         <p>Established: ${member.year}</p>
       `;
-  
       memberCard.innerHTML = cardContent;
       directoryContent.appendChild(memberCard);
     });

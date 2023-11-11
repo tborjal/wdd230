@@ -417,7 +417,8 @@ padding: 0.5em;
   width: 100%;
 }
 .member-image {
-  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  width: 11em;
+  height: 10em; /* Ensure the image doesn't exceed its container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: 5px; /* Add rounded corners if desired */
   margin-bottom: 10px; /* Add some space below the image */
