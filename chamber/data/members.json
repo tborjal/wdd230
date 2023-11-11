@@ -1,95 +1,69 @@
 {
-    "companies": [
+    "members": [
       {
-        "name" : "Puregold",
-        "information" : [
-            {
+            "name" : "Puregold",
             "address" : "Gen. Ordoñez St, Marikina, 1800 Metro Manila",
             "phone" : "(02) 8942 7596",
             "url" : "https://puregold.com.ph/index.php/?SID=rug1tqrje53ko3mvnis9cm67nb",
             "img" : "images/puregold.webp",
             "level": "Silver",
             "year": "1998"
-            }
-        ]
+            
     },
     {
-        "name" : "Dapo at Tisa",
-        "information" : [
-            {
+             "name" : "Dapo at Tisa",
             "address" : "77 Lilac St, Marikina, 1811 Metro Manila",
             "phone" : "(02) 8547 9137 ",
             "url" : "https://dapoattisa.com/",
             "img" : "images/dapo-at-tisa.webp ",
             "level": "Gold",
-            "year": "2004"
-            }
-        ]   
+            "year": "2004"       
+        
     },
     {
-        "name" : "Gibsons",
-        "information" : [
-            {
+            "name" : "Gibsons",
             "address" : "867 J. P. Rizal St, Marikina, 1800 Metro Manila",
             "phone" : "(02) 8942 2682",
             "url" : "https://www.facebook.com/gibsonshoes/",
             "img" : "images/gibsons.jpeg",
             "level": "Bronze",
             "year": "2010"
-            }
-        ]
     },
     {
-        "name" : "TNC",
-        "information" : [
-            {
+            "name" : "TNC",
             "address" : "13, 2nd Floor, CVJ Bldg. Nicanor Roxas St. Quezon City, Metro Manila Philippines.",
             "phone" : "0917 255 9117",
             "url" : "https://tnc.com.ph/",
             "img" : "images/tnc.jpeg",
             "level": "NP",
             "year": "2007"
-            }
-        ]
     },
     {
-        "name" : "C & B",
-        "information" : [
-            {
+            "name" : "C & B",
             "address" : "Liwasang Kalayaan, Marikina, 1810 Metro Manila",
             "phone" : "0917 875 9032",
             "url" : "https://www.facebook.com/cbcirclemall/",
             "img" : "images/c&b.jpeg",
             "level": "Gold",
             "year": "1994"
-            }
-        ]
     },
     {
-        "name" : "Ayala Malls",
-        "information" : [
-            {
+            "name" : "Ayala Malls",
             "address" : "Liwasang Kalayaan, Marikina, 1800 Metro Manila",
             "phone" : "(02) 7213 3979",
             "url" : "https://www.ayalamalls.com/",
             "img" : "images/ayalamalls.jpeg",
             "level": "Gold",
             "year": "1988"
-            }
-        ]
     },
     {
-        "name" : "L & J",
-        "information" : [
-            {
+            "name" : "L & J",
             "address" : "lesson2/design-principles.html",
             "phone" : "(02) 8370 7294",
             "url" : "https://www.facebook.com/lnjspa2gohome/",
             "img" : "images/l&j.png",
             "level": "Silver",
             "year": "2014"
-            }
-        ]
     }
         
     ]
