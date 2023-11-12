@@ -40,7 +40,7 @@ async function loadMemberData() {
   // Function to display members in list view
   function displayListMembers(members) {
     const directoryContent = document.getElementById("directory-content");
-    directoryContent.innerHTML = document.createElement("ul");
+    directoryContent.innerHTML = "<ul>";
   
     members.forEach((member) => {
       const listItem = document.createElement("li");
@@ -55,6 +55,8 @@ async function loadMemberData() {
       `;
       directoryContent.appendChild(listItem);
     });
+  
+    directoryContent.innerHTML += "</ul>";
   }
   
   // Function to toggle between grid and list view
