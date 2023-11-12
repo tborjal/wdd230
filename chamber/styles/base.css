@@ -416,13 +416,10 @@ padding: 0.5em;
   border-radius: .5rem;
   gap: 2rem;
   padding: 0.5rem;
-  text-align: center;
+  text-align:left;
   color: black;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  max-width: 1000px;
-  width: 30rem;
+  width: 100%;
 }
 .list-item a {
   color: black;
