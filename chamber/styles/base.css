@@ -391,11 +391,14 @@ padding: 0.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
+#directory-content {
+  width: 100%;
+}
 .member-card {
     background-color: #fff;
     border: 1px solid #ccc;
-    padding: 20px;
-    margin: 20px;
+    padding: 30px;
+    margin: 40px;
     display: inline-block;
     width: calc(30% - 40px);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -408,9 +411,10 @@ padding: 0.5em;
   color:yellow;
 }
 .list-item {
-  margin: 1rem auto;
+  margin: 2rem auto;
   border: 2px solid var(--constrast-backgr-main);
   border-radius: .5rem;
+  gap: 2rem;
   padding: 0.5rem;
   text-align: center;
   color: black;
@@ -418,7 +422,7 @@ padding: 0.5em;
   justify-content: space-evenly;
   align-items: center;
   max-width: 1000px;
-  width: 100%;
+  width: 30rem;
 }
 .list-item a {
   color: black;
@@ -427,9 +431,8 @@ padding: 0.5em;
   color: yellow;
 }
 .member-image {
-  width: 11em;
-  height: 10em; /* Ensure the image doesn't exceed its container width */
-  height: auto; /* Maintain aspect ratio */
+  width: 230px;
+  height: 190px;
   border-radius: 5px; /* Add rounded corners if desired */
   margin-bottom: 10px; /* Add some space below the image */
 }
