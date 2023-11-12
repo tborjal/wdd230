@@ -47,7 +47,6 @@ async function loadMemberData() {
       listItem.className = "list-item";
       listItem.innerHTML = `
         <h2>${member.name}</h2>
-        <img src="${member.img}" alt="${member.name} Image" class="member-image" width="340" height="320">
         <p>Address: ${member.address}</p>
         <p>Phone: ${member.phone}</p>
         <p>Website: <a href="${member.url}" target="_blank">${member.url}</a></p>
