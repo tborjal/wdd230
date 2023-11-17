@@ -20,4 +20,4 @@ const url = `https://api.openweathermap.org/data/2.5/weather?q=Marikina&appid=cf
       document.querySelector("#weather-container").innerHTML = errorMessage;
     });
 
-    
+  
