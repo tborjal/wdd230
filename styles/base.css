@@ -255,13 +255,6 @@ nav a {
   padding: 0.5em;
   color:white
   }
-  .container {
-    width: 300px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    text-align: center;
-  }
-  
   .current, .forecast {
     margin-bottom: 20px;
   }

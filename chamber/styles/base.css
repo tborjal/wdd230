@@ -46,19 +46,60 @@ main h2 {
 #weather-info {
   display: block;
   text-align: center;
-  width: 15em;
-  height: 23.5em;
-  background-color:#ccc;
+  width: 12em;
+  height: 20em;
+  background-color:darkolivegreen;
   border-radius: 0.5rem;
   border: 1px solid black;
 }
 #weather-info p {
-font-size: 18px;
+font-size: 13px;
 padding: 5px;
+}
+#weather-icon{
+  width: 50px;
+  height: 50px;
+  margin-top: 0;
+  border: none;
 }
 
 #weather-info h2 {
+  font-size: 15px;
 padding: 0.5em;
+color:white
+}
+.current, .forecast {
+  margin-bottom: 20px;
+}
+.container {
+  width: 270px;
+  height: 350px;
+  padding: 20px;
+  background-color: #ccc;;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+}
+
+.current, .forecast {
+  margin-bottom: 5px;
+}
+
+.forecast-item {
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 14px;
+}
+#city {
+  color: black;
+}
+.threedayforecast {
+  color: black;
+  margin-bottom: 15px;
+}
+.forecast img {
+  margin-top: 0;
+  border: none;
 }
 
   a:hover {
@@ -86,7 +127,7 @@ padding: 0.5em;
 
   .light-mode {
     /* CSS styles for light mode */
-    background-color: #fff;
+    background-color: #020000;
     color: #000;
   }
   
