@@ -34,7 +34,7 @@ header {
 
 main {
   display:grid;
-  margin: 2em 40px;
+  margin: 2em 30px;
   gap: 2em 2em;
   grid-template-columns: 20em 1fr 15em;
   grid-template-rows: repeat(2, 1fr);
@@ -57,9 +57,9 @@ font-size: 13px;
 padding: 5px;
 }
 #weather-icon{
-  width: 50px;
-  height: 50px;
-  margin-top: 0;
+  width: 75px;
+  height: 75px;
+  margin-top: 10px;
   border: none;
 }
 
@@ -73,7 +73,7 @@ color:white
 }
 .container {
   width: 270px;
-  height: 350px;
+  height: 400px;
   padding: 20px;
   background-color: #ccc;;
   text-align: center;
@@ -83,6 +83,7 @@ color:white
 
 .current, .forecast {
   margin-bottom: 5px;
+  height: 220px;
 }
 
 .forecast-item {
@@ -314,7 +315,8 @@ color:white
   .latest-news{
     border-radius: 0.5rem;
     border: 1px solid black;
-    background-color: #ccc
+    background-color: #ccc;
+    width: 270px;
   }
   .upcoming-events {
     border-radius: 0.5rem;
@@ -331,7 +333,6 @@ color:white
     border: 1px solid black;
     background-color: #ccc;
   }
-
   /***************
 
   DISCOVER PAGE ***************/
@@ -476,14 +477,14 @@ color:white
 }
 #banner {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: yellow;
   color: black;
-  padding: 15px;
+  padding: 7px;
   font-size: 16px;
-  position: fixed;
-  width: 100%;
+  position: relative;
+  width: 101%;
   z-index: 1000;
 }
 
