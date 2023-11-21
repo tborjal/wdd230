@@ -68,9 +68,6 @@ padding: 5px;
 padding: 0.5em;
 color:white
 }
-.current, .forecast {
-  margin-bottom: 20px;
-}
 .container {
   width: 270px;
   height: 400px;
@@ -82,7 +79,6 @@ color:white
 }
 
 .current, .forecast {
-  margin-bottom: 5px;
   height: 220px;
 }
 
@@ -228,12 +224,15 @@ color:white
     padding: 30px;
   }
 
-  .hero {
+  .hero  {
     width: 100%;
   }
 .hero img{
   border-radius: 0.5rem;
   border: 1px solid black;
+  width: 100%;
+  height: 100%;
+  margin:0;
 }
   /* Tablet menu */
   @media all and (min-width: 468px) {
@@ -499,12 +498,15 @@ color:white
   align-items: center;
   background-color: yellow;
   color: black;
-  padding: 7px;
+  margin-left: 38rem;
+  padding: 1px;
   font-size: 16px;
-  position: relative;
-  width: 101%;
+  position: absolute;
+  width: 625px;
   z-index: 1000;
-}
+  box-sizing: border-box; /* Add this line */
+  border-radius: 5px;
+ }
 
 .close-btn {
   background-color: #d53a3a;
@@ -517,4 +519,15 @@ color:white
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.extra-container {
+  width: 100%;
+  height: 200px;
+  margin-top:-1.9em;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  background-color: #ccc;
+}
+.extra-container h2 {
+  margin-top: 20px;
 }

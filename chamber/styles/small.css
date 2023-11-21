@@ -2,15 +2,16 @@
 
   main {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 500px repeat(4, 700px) 500px;
     margin:0;
-  }
-  #weather-info {
-
-    margin: 1em 5.5em;
   }
   .hero {
     border: 1px black solid;
+    height: 0;
+  }
+  .hero img{ 
+    margin-top: 75px;
+    height: 500px;
   }
   .new-business {
     order:2;
@@ -35,5 +36,31 @@
   }
   .giant-shoe {
     margin-top: 2rem;
+  }
+  #banner {
+    margin: 0;
+    padding: 0;
+    height:75px;
+    width: 325px;
+  }
+  .upcoming-events {
+    margin-bottom: 100px;
+    height: 700px;
+  }
+  .latest-news {
+    margin-top: 75px;
+    margin-left: 75px;
+  }
+  .p1,
+  .p2,
+  .p3 {
+    display: none;
+  }
+  .new-business {
+    height: 500px;
+    margin-bottom: 5px;
+  }
+  .container {
+    margin-left: 75px;
   }
 }
