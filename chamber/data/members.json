@@ -4,7 +4,7 @@
             "name" : "Puregold",
             "address" : "Gen. Ordoñez St, Marikina, 1800 Metro Manila",
             "phone" : "(02) 8942 7596",
-            "url" : "https://puregold.com.ph/index.php/?SID=rug1tqrje53ko3mvnis9cm67nb",
+            "url" : "https://puregold.com.ph/",
             "img" : "images/puregold.webp",
             "level": "Silver",
             "year": "1998"
@@ -22,7 +22,7 @@
     },
     {
             "name" : "Gibsons",
-            "address" : "867 J. P. Rizal St, Marikina, 1800 Metro Manila",
+            "address" : "Concepcion Uno, Marikina, 1800 Metro Manila",
             "phone" : "(02) 8942 2682",
             "url" : "https://www.facebook.com/gibsonshoes/",
             "img" : "images/gibsons.jpeg",
@@ -31,7 +31,7 @@
     },
     {
             "name" : "TNC",
-            "address" : "13, 2nd Floor, CVJ Bldg. Nicanor Roxas St. Quezon City, Metro Manila Philippines.",
+            "address" : "Nicanor Roxas St. Quezon City, Metro Manila Philippines.",
             "phone" : "0917 255 9117",
             "url" : "https://tnc.com.ph/",
             "img" : "images/tnc.jpeg",
@@ -58,7 +58,7 @@
     },
     {
             "name" : "L&J",
-            "address" : "36 San Isidro Ave. Balanti San Isidro Cainta Rizal Marikina City, Philippines",
+            "address" : "San Isidro Cainta Rizal Marikina City, Philippines",
             "phone" : "(02) 8370 7294",
             "url" : "https://www.facebook.com/lnjspa2gohome/",
             "img" : "images/l&j.png",
