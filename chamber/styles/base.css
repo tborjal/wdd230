@@ -585,7 +585,7 @@ color:white
 
 .submit {
   padding: 10px 20px;
-  color: #fff;
+  color: gray;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -602,6 +602,7 @@ form {
 }
 .submit:hover {
   background-color: #0056b3;
+  color:white;
 }
 
 table {
