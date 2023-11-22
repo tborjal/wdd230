@@ -63,4 +63,56 @@
   .container {
     margin-left: 75px;
   }
+  .joinform {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 600px 1fr;
+    width: 414px;
+    margin:0;
+    
+  }
+  table {
+    display:none;
+  }
+  form {
+    width: 400px;
+    height: 1150px;
+    margin: 0;
+  }
+  #business-description
+ {
+    width: 270px;
+    margin-right: 0;
+  }
+  #membership-level
+  {
+     width: 270px;
+     margin-right: 0;
+   }
+  .input-text[type="text"],
+  .input-password[type="password"],
+  .input-email[type="email"],
+  .input-telephone[type="tel"],
+  .input-range[type="range"] {
+    width: 270px;
+    margin-right: 0;
+  }
+  .mobilecontainer{
+    display: block;
+    border: 3px solid black;
+    border-radius: 0.5rem;
+    width: 400px;
+  }
+}
+.np-mobile{
+  border: 1px solid black;
+}
+.bronze-mobile{
+  border: 1px solid black;
+}
+.silver-mobile{
+  border: 1px solid black;
+}
+.gold-mobile{
+  border: 1px solid black;
 }
