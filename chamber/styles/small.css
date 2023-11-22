@@ -104,6 +104,9 @@
     width: 400px;
   }
 }
+.mobilecontainer li {
+  font-weight: 100;
+}
 .np-mobile{
   border: 1px solid black;
 }
