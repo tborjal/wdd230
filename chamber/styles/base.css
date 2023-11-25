@@ -435,7 +435,7 @@ color:white
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
 }
-#directory-content {
+.directory-content {
   width: 100%;
 }
 .member-card {
@@ -647,4 +647,3 @@ padding: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
