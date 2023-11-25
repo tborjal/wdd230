@@ -2,7 +2,7 @@
 
   main {
     grid-template-columns: 1fr;
-    grid-template-rows: 500px repeat(2, 600px) 1200px 500px 500px;
+    grid-template-rows: 500px 600px 500px 1200px 500px 500px;
     margin:0;
   }
   .hero {
@@ -119,8 +119,8 @@
 .gold-mobile{
   border: 1px solid black;
 }
-#spotlights {
+.spotlights {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
 }

@@ -643,7 +643,7 @@ padding: 25px;
 .mobilecontainer{
   display:none;
 }
-#spotlights {
+.spotlights {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
