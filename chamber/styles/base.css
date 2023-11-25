@@ -522,14 +522,14 @@ color:white
 }
 .extra-container {
   width: 100%;
-  height: 200px;
-  margin-top:-1.9em;
+  height: 100px;
+  margin-top:-3.5em;
   border-radius: 0.5rem;
   border: 1px solid black;
   background-color: #ccc;
 }
 .extra-container h2 {
-  margin-top: 20px;
+  margin:0;
 }
 
 .joinform {

@@ -177,7 +177,7 @@ fetch(dataURL)
             <h2>${members.name}</h2>
             <p>Level: ${members.level}</p>
             <p>Year: ${members.year}</p>
-            <img src="${members.img}" alt="${members.name}" width="200" height="auto">
+            <img src="${members.img}" alt="${members.name}" width="200" height="150">
         `;
 
         document.getElementById('spotlights').appendChild(memberDiv);

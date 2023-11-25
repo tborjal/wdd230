@@ -2,7 +2,7 @@
 
   main {
     grid-template-columns: 1fr;
-    grid-template-rows: 500px repeat(4, 700px) 500px;
+    grid-template-rows: 500px repeat(2, 600px) 1200px 500px 500px;
     margin:0;
   }
   .hero {
@@ -45,7 +45,7 @@
   }
   .upcoming-events {
     margin-bottom: 100px;
-    height: 700px;
+    height: 1200px;
   }
   .latest-news {
     margin-top: 75px;
@@ -118,4 +118,9 @@
 }
 .gold-mobile{
   border: 1px solid black;
+}
+#spotlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
 }
