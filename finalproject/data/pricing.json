@@ -1,0 +1,83 @@
+{
+    "plans": {
+       "plan:free": {
+         "title": "Free Plan",
+         "features": {
+           "feature:basic": {}
+         },
+         "billing_interval": "month",
+         "currency": "usd"
+       },
+       "plan:pro": {
+         "title": "Pro Plan",
+         "features": {
+           "feature:basic": {}
+         },
+         "billing_interval": "month",
+         "currency": "usd"
+       }
+    },
+    "vehicles": {
+       "vehicle:metro_scooter": {
+         "title": "Honda Metro Scooter",
+         "max_persons": 1,
+         "rental_types": {
+           "rental_type:half_day": {
+             "price": 20
+           },
+           "rental_type:full_day": {
+             "price": 30
+           }
+         }
+       },
+       "vehicle:dio_scooter": {
+         "title": "Honda Dio Scooter",
+         "max_persons": 2,
+         "rental_types": {
+           "rental_type:half_day": {
+             "price": 30
+           },
+           "rental_type:full_day": {
+             "price": 40
+           }
+         }
+       },
+       "vehicle:pioneer_atv": {
+         "title": "Honda Pioneer ATV",
+         "max_persons": 4,
+         "rental_types": {
+           "rental_type:half_day": {
+             "price": 50
+           },
+           "rental_type:full_day": {
+             "price": 70
+           }
+         }
+       },
+       "vehicle:wrangler_4door": {
+         "title": "Jeep Wrangler - 4 door with a/c",
+         "max_persons": 5,
+         "rental_types": {
+           "rental_type:half_day": {
+             "price": 70
+           },
+           "rental_type:full_day": {
+             "price": 100
+           }
+         }
+       },
+       "vehicle:wrangler_2door": {
+         "title": "Jeep Wrangler - 2 door",
+         "max_persons": 4,
+         "rental_types": {
+           "rental_type:half_day": {
+             "price": 60
+           },
+           "rental_type:full_day": {
+             "price": 85
+           }
+         }
+       }
+    }
+   }
+   
