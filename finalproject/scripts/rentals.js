@@ -1,7 +1,5 @@
-
 const baseURL = "https://tborjal.github.io/wdd230/"; // Replace with your actual GitHub Pages URL
 const linksURL = `${baseURL}finalproject/data/pricing.json`;
-
 
 fetch(linksURL)
     .then(response => response.json())
@@ -11,6 +9,9 @@ fetch(linksURL)
         data.forEach(item => {
             const row = `<tr>
                                 <td>${item["Rental Type"]}</td>
+                                <td>${item["Max. Persons"]}</td>
+                                <td>${item["Half Day (3 hrs)"]}</td>
+                                <td>${item["Full Day"]}</td>
                                 <td>${item["Half Day (3 hrs)"]}</td>
                                 <td>${item["Full Day"]}</td>
                            </tr>`;
