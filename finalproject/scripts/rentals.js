@@ -1,4 +1,4 @@
-fetch('data/pricing.json')
+fetch('/data/pricing.json')
             .then(response => response.json())
             .then(data => {
                 const table = document.getElementById('rentalTable');
