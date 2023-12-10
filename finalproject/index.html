@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="Facebook">
+    <meta name="description" content="The Final Project for WDD-230">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Economica:ital@1&family=Lato:wght@100&family=Mooli&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Scoots Project</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="title">Scoots of Cozumel</div>
+        <ul>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Rentals</a></li>
+          <li><a href="#">Home</a></li>
+        </ul>
+    <div class="logo"><img src="images/conzumel.png" width="50" height="50"></div>
+    </nav>
+</header>
+<main class="home-layout">
+    <section class="hero-image">
+        <picture>
+            <source srcset="./images/cozumel-hero-large.webp" media="(min-width:1395px)">
+            <source srcset="./images/cozumel-hero-medium.webp" media="(min-width:910px)">  
+            <img src="images/cozumel-hero.jpeg" alt="Cozumel Beach">
+        </picture>
+        <button class="button">Rent Now</button>
+    </section> 
+    <section class="image-list">
+        <div class="image-one">
+            <img src="images/man-and-scooter.avif"> 
+        </div>
+        <div class="image-two">
+            <img src="images/people-and-atv.jpeg">   
+        </div>
+        <div class="image-three">
+            <img src="images/people-and-jeep.jpeg">    
+        </div>
+    </section>
+    </section>
+    <section class="descriptions">
+        <p class="honda-dio">When it comes to vehicle rentals in Cozumel, Mexico, there are various options available for exploring the island's beauty and attractions. The Honda Dio scooter is a popular choice for navigating the island's streets with ease. Its compact size and fuel efficiency make it perfect for zipping around town, visiting local shops, and enjoying the beachfront promenades. With its agile handling and comfortable seating, the Honda Dio offers a convenient and fun way to explore Cozumel's charming towns and vibrant neighborhoods. If you're looking to venture off-road and discover the island's hidden gems, the Honda Pioneer is an excellent option. This versatile side-by-side utility vehicle is designed to tackle the rugged terrains of Cozumel with ease. </p>
+        <p class="pioneer-atv"> With its powerful engine, four-wheel drive capability, and spacious seating for multiple passengers, the Honda Pioneer provides a comfortable and exciting ride for exploring Cozumel's off-the-beaten-path locations, such as the dense jungle and secluded beaches.
+            For those seeking the ultimate adventure and versatility, renting a Jeep Wrangler is a popular choice in Cozumel. With its iconic design and off-road capabilities, the Wrangler allows you to explore every corner of the island at your own pace. Whether you want to visit remote beaches, explore the stunning coastline, or drive along the scenic coastal roads, the Jeep Wrangler provides the freedom to go where you please and enjoy the thrilling experience of driving a rugged and capable vehicle. </p>
+            <div class="weather-and-forecast">
+                <h2>Weather: Today</h2>
+                <div id="weather-container">
+                    <img class="weather-icon" src="#" alt="#empty">
+                    <div id="temp-container">
+                        <p>Temperature: <span id="temperature"></span>&deg;C</p>
+                        <p id="weather-info"></p>
+                </div>
+                <p>Wind speed: <span id="wind-speed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
+            </div>
+            <div class="background-image">
+                <h2>Forecast</h2>
+                <div class="forecast-inf">
+                </div>
+            </div>
+            </div>
+    </section>
+</main>
+<footer>
+    <div class="footer-container">
+        <div class="footer-title">
+        <img src="images/conzumel.png" alt="cozumel-footer" width="50" height="50">
+        <h2>Scoots of Cozumel</h2>
+        </div>
+        <div class="footer-info">
+        <p>info@scootscozumel.com</p>
+        <p>(+987) 35810 - 74495</p>
+        <p>San Miguel de Cozumel, Mexico</p>
+        </div>
+    </div>
+    <hr>
+        <p>Copyright © 2023 Terence Borjal - Final Project - WDD-230</p>
+        <p id="last-modified"></p>
+</footer>
+<script src="scripts/last-modified.js"></script>
+<script src="scripts/weather.js"></script>
+</script>
+</body>
+</html>
