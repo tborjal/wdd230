@@ -1,4 +1,9 @@
-fetch('..data/pricing.json')
+
+const baseURL = "https://tborjal.github.io/wdd230/"; // Replace with your actual GitHub Pages URL
+const linksURL = `${baseURL}finalproject/data/pricing.json`;
+
+
+fetch(linksURL)
     .then(response => response.json())
     .then(data => {
         const tableBody = document.getElementById('tableBody');
