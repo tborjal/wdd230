@@ -194,4 +194,65 @@ background-color: darkblue; /* Dark blue */
     float: right;
     text-align: center;
   }
- 
+  .rentalmain {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #rentalTable {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+    position: absolute;
+   text-align: center;
+   background-color: white;
+  }
+
+  #rentalTable th, #rentalTable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  #rentalTable th {
+    background-color: lightblue;
+    color: black;
+  }
+
+  #rentalTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .hamburger {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+    cursor: pointer;
+  }
+  
+  .hamburger span {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hamburger span::before {
+    content: '=';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
