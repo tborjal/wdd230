@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="Facebook">
+    <meta name="description" content="The Final Project for WDD-230">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Economica:ital@1&family=Lato:wght@100&family=Mooli&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Scoots Project</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand-title">Scoots of Cozumel</div>
+            <a href="#" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="logo"><img src="images/conzumel.png" width="50" height="50"></div>
+        </nav>
+    </header>
+    <main class="reservation-layout">
+     
+        <div class="rental-agreement-container">
+            <div class="rental-agreement-item">
+              <h2>Vehicle Rental Agreement for Cozumel, Mexico</h2>
+              <p>- This Vehicle Rental Agreement ("Agreement") is entered into between the Renter, as identified in the booking reservation, and the Company, a vehicle rental service operating in Cozumel, Mexico. This Agreement outlines the terms and conditions under which the rental vehicle will be provided to the Renter for the specified rental period.</p>
+              <p>- The Company is committed to providing a well-maintained and roadworthy vehicle for your convenience and enjoyment during your stay in Cozumel, Mexico. Our vehicles are regularly inspected and serviced to meet safety standards and ensure reliable performance on the roads.</p>
+              <p>- As the Renter, it is essential that you provide accurate and complete information regarding your driver's license, contact details, and any other requested information. This enables us to complete the necessary paperwork and documentation required for the rental, and helps us provide you with the best possible service.</p>
+              <p>- During the rental period, you are responsible for the condition and safe operation of the rental vehicle. Any damages or loss incurred during the rental period will be the responsibility of the Renter, subject to the terms and conditions outlined in this Agreement.</p>
+
+              </p>
+            </div>
+            <div class="rental-agreement-item">
+              <h2>Terms & Conditions</h2>
+              <p>1. Renter will return the rental vehicle in the same condition as it was rented, except for ordinary wear and tear.</p>
+              <p>2. Renter is responsible for all damages to the vehicle during the rental period, including damage from theft, fire, collision, or any other cause.</p>
+              <p>3. Renter will not allow anyone who is not authorized by the Company to drive the vehicle.</p>
+              <p>4. Renter will not use the vehicle for any purpose that violates the law or this Agreement, including but not limited to driving under the influence of alcohol or drugs.</p>
+              <p>5. Renter will return the rental vehicle on or before the specified return date and time.</p>
+              <p>6. Company has the right to terminate this Agreement and repossess the rental vehicle if Renter violates any terms of this Agreement.</p>  
+
+            </div>
+            <div class="rental-agreement-item">
+              <h2>Insurance</h2>
+              <p>- The rental vehicle comes with a basic liability insurance that covers damage to the third party. The Renter can choose to upgrade the insurance to include additional coverages that may include, but not limited to: collision coverage, theft protection, personal accident insurance, and additional claims administration fees.</p>
+              <p>- When renting a vehicle in Cozumel, Mexico, it is crucial to understand the insurance options available. The basic liability insurance, included in the rental price, provides coverage for damages to third-party property or persons. For additional protection, the Collision Damage Waiver (CDW) reduces the Renter's financial responsibility for any damage or loss to the rental vehicle, with a deductible amount specified in the rental agreement. </p>
+              <p>- Theft protection coverage reduces financial responsibility in case of theft or attempted theft, while personal accident insurance provides medical expenses and personal accident benefits in case of injury or death resulting from an accident while in the rental vehicle. Optional coverage selections and corresponding costs will be outlined in the rental agreement. </p>
+              <p>- It is essential to carefully review the terms and conditions of each insurance option to make an informed decision that meets your needs and provides peace of mind during your rental period.</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Rental Agreement Form</h2>
+            <form action="/submit" method="post">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+        
+                <label for="period">Rental Period:</label>
+                <div class="period-date">
+                <input type="date" id="date" name="date" required>
+                <p>To:</p>
+                <input type="date" id="date" name="date" required>
+                </div>
+                <label for="dropdown">Rental Type</label>
+                <select id="dropdown" name="dropdown" required>
+                  <option value="N/A">---</option>
+                  <option value="Scooter">Scooter</option>
+                  <option value="ATV">ATV</option>
+                  <option value="Vehicle">Vehicle</option>
+                </select>
+        
+                <label for="number">Number:</label>
+                <input type="text" id="number" name="number" pattern="[0-9]+" required>
+        
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" pattern="[A-Za-z]+" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="^\S+@\S+\.\S+$" required>
+        
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" pattern="[A-Za-z]{2}" required>
+        
+                <label for="cruiseLine">Cruise Line:</label>
+                <input type="text" id="cruiseLine" name="cruiseLine" pattern="[A-Za-z\s]+" required>
+        
+                <label for="specialAccommodations">Special Accommodations/Comments:</label>
+                <textarea id="specialAccommodations" name="specialAccommodations"></textarea>
+        
+                <button class="form-submit" type="submit">Submit</button>
+            </form>
+    </main>
+<footer>
+    <div class="footer-container">
+        <div class="footer-title">
+        <img src="images/conzumel.png" alt="cozumel-footer" width="50" height="50">
+        <h2>Scoots of Cozumel</h2>
+        </div>
+        <div class="footer-info">
+        <p>info@scootscozumel.com</p>
+        <p>(+987) 35810 - 74495</p>
+        <p>San Miguel de Cozumel, Mexico</p>
+        </div>
+    </div>
+    <hr>
+        <p>Copyright © 2023 Terence Borjal - Final Project - WDD-230</p>
+        <p id="last-modified"></p>
+</footer>
+<script src="scripts/last-modified.js"></script>
+<script src="scripts/navbar.js"></script>
+</body>
+</html>

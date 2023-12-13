@@ -356,3 +356,115 @@ background-color: darkblue; /* Dark blue */
   margin-left: 50px;
   margin-right: 50px;
 }
+
+/* -------------------------- */
+
+.reservation-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 800px;
+}
+.rental-agreement-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  margin: 20px;
+}
+
+.rental-agreement-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+.container {
+  height: 780px;
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  align-items: center;
+  margin-right:auto;
+  margin-left: auto;
+  background-color: lightgrey;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  padding: 3px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  resize: none;
+}
+.contact-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 700px;
+}
+.form-submit {
+display: block;
+margin: 5px auto;
+padding: 5px;
+}
+.form-submit:hover {
+  background-color: orange;
+}
+.period-date {
+  display: flex;
+  gap: 1.5rem;
+}
+.period-date input{
+  height: 30px;
+}
+.period-date p{
+  padding-bottom: 20px;
+}
+iframe {
+  display: flex;
+  margin: 20px auto;
+}
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+ }
+ 
+ #contactForm label {
+  font-weight: bold;
+  margin-bottom: 5px;
+ }
+ 
+ #contactForm input[type="text"],
+ #contactForm input[type="email"],
+ #contactForm textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+ }
+ 
+ #contactForm input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+ }
+ 
+ #contactForm input[type="submit"]:hover {
+  background-color: #45a049;
+ }
