@@ -35,16 +35,26 @@
         </nav>
     </header>
     <main class="contact-form">
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239283.6728666873!2d-87.03906533236234!3d20.432006005679103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sph!4v1702463592715!5m2!1sen!2sph" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-        <form class="contacts" action="send-email.php" method="post" id="contactForm">
+        <div class="contact-banner">
+            <div class="contact-info">
+              <h2>Our Info:</h2>
+              <p>Santisimo Vadorki</p>
+              <p>Phone: (+987) 21993 - 67002</p>
+              <p>Email: santi_dork@bigpond.com</p>
+              <p>Address: San Gervasio, Cozumel, Q.R., Mexico </p>
+            </div>
+          </div>
+        <form class="contacts" action="thankyou_again.html" method="post" id="contactForm">
             <h2>Contact Us</h2>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br>
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
+            <input type="email" id="email" name="email" pattern="^\S+@\S+\.\S+$" required><br>
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
+            <textarea id="message" name="message"></textarea><br>
             <input type="submit" value="Send">
           </form>
     </main>

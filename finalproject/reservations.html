@@ -66,7 +66,7 @@
         </div>
         <div class="container">
             <h2>Rental Agreement Form</h2>
-            <form action="/submit" method="post">
+            <form action="thankyou.html" method="post">
                 <label for="date">Date:</label>
                 <input type="date" id="date" name="date" required>
         
@@ -83,12 +83,9 @@
                   <option value="ATV">ATV</option>
                   <option value="Vehicle">Vehicle</option>
                 </select>
-        
-                <label for="number">Number:</label>
-                <input type="text" id="number" name="number" pattern="[0-9]+" required>
-        
+
                 <label for="phoneNumber">Phone Number:</label>
-                <input type="text" id="phoneNumber" name="phoneNumber"pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <input type="text" id="phoneNumber" pattern="[0-9]{10}" name="phoneNumber" required>
         
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" pattern="[A-Za-z]+" required>

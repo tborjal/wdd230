@@ -50,7 +50,107 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-        
+    #rentalTable {
+        display:none;
     }
+    table, th, td {
+        width: 380px;  
+        height: 100px;      
+        text-align: center;
+    }
+
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        font-size: 30px;
+    }
+    .rentalmain{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 800px 830px 900px 900px 900px 900px;
+    }
+    .small-view-info{
+        background-color: #f2f2f2;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 400px;
+    }
+    .table-small {
+        margin-right:auto;
+        margin-left: 15px;
+    }
+    .honda-metro-small{
+        margin: 15px;
+    }
+    .honda-dio-small{
+        margin: 15px;
+    }
+    .honda-pcx150-small{
+        margin: 15px;
+    }
+    .honda-pioneer-small{
+        margin: 15px;
+    }
+    .jeep-wrangler1-small{
+        margin: 15px;
+    }
+    .jeep-wrangler2-small{
+        margin: 15px;
+    }
+    .honda-metro{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .honda-dio{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .honda-pcx150{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .honda-pioneer{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .jeep-wrangler-1{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .jeep-wrangler-2{
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 300px 100px 210px;
+    }
+    .honda-metro p{
+        margin: 15px;
+    }
+    .honda-dio p{
+        margin:15px;
+    }
+    .honda-pcx150 p {
+        margin: 15px;
+    }
+    .honda-pioneer {
+        margin: 15px;
+    }
+    .jeep-wrangler-1{
+        margin:15px;
+    }
+    .jeep-wrangler-2 p{
+        margin:15px;
+    }
+}
+
+
 
   
