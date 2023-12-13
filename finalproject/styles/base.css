@@ -208,7 +208,7 @@ background-color: darkblue; /* Dark blue */
   .rentalmain {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   #rentalTable {
     font-family: Arial, sans-serif;
@@ -217,7 +217,10 @@ background-color: darkblue; /* Dark blue */
     margin-left:auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 50px;
     background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
   }
 
   #rentalTable th, #rentalTable td {
@@ -268,3 +271,88 @@ background-color: darkblue; /* Dark blue */
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+.honda-metro {
+  display: flex;
+  font-size: 1.5rem;
+}
+.honda-metro img{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.honda-metro h2 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.honda-dio{
+  display: flex;
+  font-size: 1.5rem;
+}
+.honda-dio img {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.honda-dio h2{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.honda-pcx150 {
+  display: flex;
+  font-size: 1.5rem;
+}
+.honda-pcx150 img{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.honda-pcx150 h2{
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.honda-pioneer{
+  display: flex;
+  font-size: 1.5rem;
+}
+.honda-pioneer img{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.honda-pioneer h2 {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.jeep-wrangler-1 {
+  display: flex;
+  font-size: 1.5rem;
+}
+.jeep-wrangler-1 img{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.jeep-wrangler-1 h2 {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.jeep-wrangler-2 {
+  display: flex;
+  font-size: 1.5rem;
+}
+.jeep-wrangler-2 img{
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.jeep-wrangler-2 h2{
+  margin-left: 50px;
+  margin-right: 50px;
+}
