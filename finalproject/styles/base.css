@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
     margin:0;
     padding:0;
@@ -6,55 +9,64 @@ body {
 }
 
 .navbar {
- background-color: darkblue;
- height: 70px;
- overflow: hidden;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color:darkblue;
+  color: white;
 }
 
-/* Style the navigation bar links */
-.navbar a {
- float: right;
- display: block;
- color: #f2f2f2;
- text-align: center;
- padding: 14px 16px;
- text-decoration: none;
- margin-right: 5px;
- font-size: 22px;
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
 }
 
-/* Change the color of links on hover */
-.navbar a:hover {
- color: orange;
+.navbar-links {
+  height: 100%;
 }
 
-/* Add a color to the active/current link */
-.navbar a.active {
- background-color: #4CAF50;
- color: white;
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
-/* Style the navigation bar to make all links fit in one line */
-.navbar ul {
- padding: 0;
- margin: 0;
- list-style-type: none;
- white-space: nowrap;
+.navbar-links li {
+  list-style: none;
 }
 
-/* Style the title div */
-.navbar .title {
- position: absolute;
- left: 50%;
- transform: translateX(-50%);
- font-size: 40px;
- color: #f2f2f2;
- line-height: 50px;
- white-space: nowrap;
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1.3rem;
 }
-.logo{
-float: left;
-padding: 10px;
+.navbar-links li a:hover{
+  color:black;
+}
+
+.navbar-links li:hover {
+  background-color: white;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
 }
 .home-layout {
     display: grid;
