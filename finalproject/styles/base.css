@@ -428,8 +428,7 @@ padding: 5px;
 }
 iframe {
   display: flex;
-  margin: 20px auto;
-  width: 1200px;
+  width: 100%;
 }
 #contactForm {
   display: flex;
