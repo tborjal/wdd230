@@ -34,5 +34,23 @@
     .logo {
      display: none;
     }
-  }
+    .hero-image{
+        width: 413px;
+    }
+    .home-layout{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 1fr;
+    }
+    .image-list{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 400px);
+    }
+    .descriptions {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+        
+    }
+
   

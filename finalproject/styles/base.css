@@ -132,7 +132,6 @@ background-color: darkblue; /* Dark blue */
 }
 .honda-dio{
     font-size: 30px;
-
 }
 .pioneer-atv{
     font-size: 30px;
@@ -214,10 +213,11 @@ background-color: darkblue; /* Dark blue */
   #rentalTable {
     font-family: Arial, sans-serif;
     border-collapse: collapse;
-    width: 700px;
-    position: absolute;
-   text-align: center;
-   background-color: white;
+    display: inline-block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
   }
 
   #rentalTable th, #rentalTable td {
